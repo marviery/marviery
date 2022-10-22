@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="424.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="projekpbol.FXMLDocumentController">
+   <children>
+      <ImageView fitHeight="600.0" fitWidth="800.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/C:/Users/ASUS/OneDrive/Documents/kuliah/pbol/ProjekPBOL/src/image/1.png" />
+         </image></ImageView>
+      <MenuButton layoutX="174.0" layoutY="332.0" mnemonicParsing="false" text="menuju cafe">
+        <items>
+          <MenuItem fx:id="tcustomer" mnemonicParsing="false" onAction="#cusclick" text="Customer" />
+          <MenuItem fx:id="tmenu" mnemonicParsing="false" onAction="#menuclick" text="menu " />
+            <MenuItem fx:id="tstock" mnemonicParsing="false" onAction="#stockclick" text="stock" />
+        </items>
+      </MenuButton>
+   </children>
+</AnchorPane>

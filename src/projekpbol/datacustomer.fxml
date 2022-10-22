@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="761.0" prefWidth="535.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="projekpbol.DatacustomerController">
+   <children>
+      <ImageView fitHeight="768.0" fitWidth="574.0" layoutX="-3.0" layoutY="-7.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/4.png" />
+         </image>
+      </ImageView>
+      <TableView fx:id="tabelcustomer" layoutX="47.0" layoutY="209.0" prefHeight="302.0" prefWidth="452.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="C1" />
+          <TableColumn prefWidth="75.0" text="C2" />
+        </columns>
+      </TableView>
+      <Button fx:id="ttambah" layoutX="159.0" layoutY="539.0" mnemonicParsing="false" onAction="#tambahclick" text="tambah" />
+      <Button fx:id="tupdate" layoutX="242.0" layoutY="539.0" mnemonicParsing="false" onAction="#updateclick" text="update" />
+      <Button fx:id="thapus" layoutX="323.0" layoutY="539.0" mnemonicParsing="false" onAction="#hapusclick" text="hapus" />
+   </children>
+</AnchorPane>

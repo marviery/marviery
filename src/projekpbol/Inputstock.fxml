@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: Orange;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="projekpbol.InputstockController">
+   <children>
+      <Label layoutX="211.0" layoutY="39.0" text="Input stock">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+      <Label layoutX="152.0" layoutY="115.0" text="code" />
+      <Label layoutX="113.0" layoutY="157.0" text="namabarang" />
+      <Label layoutX="142.0" layoutY="201.0" text="jumlah" />
+      <Label layoutX="103.0" layoutY="246.0" text="tanggalmasuk" />
+      <TextField fx:id="tcode" layoutX="211.0" layoutY="111.0" />
+      <TextField fx:id="tnama" layoutX="211.0" layoutY="153.0" />
+      <TextField fx:id="tjumlah" layoutX="211.0" layoutY="197.0" />
+      <Button fx:id="tsave" layoutX="191.0" layoutY="295.0" mnemonicParsing="false" onAction="#saveclick" text="save" />
+      <Button fx:id="tdelete" layoutX="248.0" layoutY="295.0" mnemonicParsing="false" onAction="#deleteclick" text="delete" />
+      <Button fx:id="texit" layoutX="310.0" layoutY="295.0" mnemonicParsing="false" onAction="#exitclick" text="exit" />
+      <TextField fx:id="ttanggal" layoutX="211.0" layoutY="242.0" />
+   </children>
+</AnchorPane>

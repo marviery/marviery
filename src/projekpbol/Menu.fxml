@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="713.0" prefWidth="505.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="projekpbol.MenuController">
+   <children>
+      <ImageView fitHeight="713.0" fitWidth="586.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/C:/Users/ASUS/OneDrive/Documents/kuliah/pbol/ProjekPBOL/src/image/2.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="saves" layoutX="147.0" layoutY="544.0" mnemonicParsing="false" onAction="#saveclick" text="save" />
+      <Button fx:id="tupdate" layoutX="225.0" layoutY="544.0" mnemonicParsing="false" onAction="#updateclick" text="update" />
+      <Button fx:id="tdelete" layoutX="303.0" layoutY="544.0" mnemonicParsing="false" onAction="#deleteclick" text="delete" />
+      <Button fx:id="texit" layoutX="373.0" layoutY="544.0" mnemonicParsing="false" onAction="#exitclick" text="exit" />
+      <TableView fx:id="tabelmenu" layoutX="46.0" layoutY="164.0" prefHeight="369.0" prefWidth="416.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="C1" />
+          <TableColumn prefWidth="75.0" text="C2" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
